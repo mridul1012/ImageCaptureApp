@@ -6,7 +6,6 @@ import time
 from tkinter import *
 from tkinter import messagebox
 
-##  MRIDUL AGRAWAL
 ## listing emails and password 
 em = ["mridul.agrawal@intelegencia.com","anant.bharadwaj@intelegencia.com","ashish.rana@intelegencia.com","vivek.sharma@intelegencia.com","karuna.munjal@intelegencia.com","manish.pathak@intelegencia.com"]
 ps = ["Mridul@123","Anant@123","Ashish@123","Vivek@123","Karuna@123","Manish@123"]
@@ -57,7 +56,7 @@ def password_check(passwd):
     #if val:
     return val
 
-## capture and show image     by Anant
+## capture and show image
 def capture():
     
     l = []## define list to store frames
@@ -89,7 +88,7 @@ def capture():
 
     cv2.destroyAllWindows()
 
-## this function will be executed when login button is clicked      BY Mridul
+## this function will be executed when login button is clicked  
 def log_fun():
     username = e1.get()
     password = e2.get()
@@ -118,7 +117,7 @@ def log_fun():
     else:
         messagebox.showinfo("","please enter valid email and password")
         
-# ASHISH RANA
+# partly done by ashish rana
 # Tkinter Window Cofiguration
 root = Tk()  
 root.geometry('1080x2150')
